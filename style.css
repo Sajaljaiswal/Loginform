@@ -16,6 +16,7 @@ body{
 }
 
 .head1{
+    
     color: rgb(203, 121, 215);
     font-weight: bold;
     padding-top: 20px;
@@ -24,6 +25,7 @@ body{
 }
 
 .head2{
+    
     margin: 23px;
     color: cornflowerblue;
     font-weight: bold;
@@ -39,9 +41,27 @@ body{
     border-radius: 30px;
 }
 .container2{
-    margin-top: 60px;
+    margin-top: 40px;
     
 }
+
+.btn{
+    margin-left: 85px;
+    transition-duration: 0.4s;
+  background-color: #d97ae7; 
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+    background-color: #6654b8; /* Green */
+    color: white;
+  }
 .box{
     width: 80%;
     padding: 12px 20px;
@@ -53,4 +73,10 @@ body{
     border-bottom: 2px solid blueviolet;
     margin-left: 50px;
     margin-bottom: 20px;
+}
+    
+.cont{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
 }
